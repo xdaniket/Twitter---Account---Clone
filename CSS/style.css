@@ -1,7 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: serif;
+  font-family: system-ui, -apple-system, blinkmacsystemfont, "segoe ui",
+    sans-serif;
+  /* font-family: Twitter Chirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif; */
 }
 /* Main_Parent */
 .Main_Parent {
@@ -15,10 +18,10 @@
   color: white;
 }
 .Left_content {
-  margin-left: 158px;
+  margin-left: 115px;
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 40px;
   position: fixed;
   top: 0px;
 }
@@ -26,12 +29,25 @@
   height: 22px;
   margin-top: 23px;
 }
+.font {
+  color: dodgerblue;
+}
 .Text {
   font-size: 23px;
   display: flex;
-  gap: 32px;
-  font-family: sans-serif;
+  gap: 66px;
   cursor: pointer;
+  color: dodgerblue;
+}
+.buttn {
+  width: 224px;
+  font-size: 22px;
+  font-weight: 600;
+  height: 54px;
+  background-color: dodgerblue;
+  color: white;
+  margin-left: -18px;
+  text-align: center;
 }
 /* Mid Side Block */
 .Mid_Side {
@@ -51,7 +67,6 @@
   font-family: sans-serif;
   background-color: rgba(0, 0, 0, 0.65);
   backdrop-filter: blur(12px);
-  height: 50px;
   border-bottom: 1px solid grey;
 }
 .i1 {
@@ -63,15 +78,14 @@
 }
 .btn {
   float: right;
-  margin: 8px;
+  margin-right: 9px;
   margin-top: -10px;
   cursor: pointer;
   position: sticky;
-  top: 7px;
+  top: 5px;
 }
 button {
-  padding: 10px;
-  height: 39px;
+  height: 44px;
   width: 100px;
   border-radius: 35px;
   font-size: 16px;
@@ -148,15 +162,17 @@ ul li::after {
   font-weight: 100;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .Inside_image {
-  height: 23px;
-  width: 60px;
+  height: 20px;
+  width: 51px;
+  margin-top: 3px;
 }
 .Inside_img {
   width: 53px;
   height: 38px;
-  margin-top: -9px;
+  margin-top: -3px;
 }
 
 .section {
@@ -208,6 +224,7 @@ ul li::after {
   position: sticky;
   top: 0px;
   z-index: 1;
+  margin-bottom: 30px;
 }
 .input {
   margin-left: 45px;
@@ -229,7 +246,7 @@ ul li::after {
 .input_box {
   display: flex;
   flex-direction: column;
-  gap: 13px;
+  gap: 20px;
   margin-top: 13px;
   margin-bottom: 12px;
 }
@@ -244,10 +261,11 @@ ul li::after {
 }
 .midium {
   margin-left: 49px;
-  margin-top: 8px;
+  margin-top: 15px;
+  margin-bottom: 35px;
   border: 1px solid grey;
   border-radius: 21px;
-  padding: 15px;
+  padding: 19px;
   margin-right: 131px;
   line-height: 28px;
 }
@@ -272,6 +290,7 @@ ul li::after {
 .midium2 {
   margin-left: 49px;
   margin-top: 8px;
+  margin-bottom: 35px;
   border: 1px solid grey;
   border-radius: 21px;
   margin-right: 131px;
@@ -310,10 +329,13 @@ ul li::after {
   font-size: 15px;
   margin-top: 12px;
   align-items: center;
+  margin-bottom: 20px;
 }
 .head {
   font-size: 26px;
   font-weight: 500;
+  margin-bottom: 26px;
+  margin-top: 10px;
 }
 .Lead_img {
   height: 62px;
@@ -350,16 +372,16 @@ ul li::after {
   width: 82px;
 }
 .logo_img {
-  margin-top: 191px;
+  margin-top: 192px;
   cursor: pointer;
 }
 .copy {
-  margin-top: 198px;
+  margin-top: 200px;
   font-size: 21px;
   cursor: pointer;
 }
 .social {
-  margin-top: 189px;
+  margin-top: 195px;
 }
 .social img {
   cursor: pointer;
